@@ -1,10 +1,298 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Tailwind Portfolio</title>
 </head>
-<body>
-    <h1>Contact page</h1>
+<body class="">
+  <!-- into section -->
+  <div class="container mx-auto p-6 md:p-4">
+    <!-- navbar -->
+    <nav class="">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <img class="h-8 w-8 md:h-10 md:w-10" src="./img/logo.png" alt="" />
+          <span class="text-lg md:text-xl">Portwind.</span>
+        </div>
+        <ul class="hidden md:flex space-x-4 text-lg">
+          <li class="">
+            <a href="#">homepage</a>
+          </li>
+          <li class="">
+            <a href="#about">about me</a>
+          </li>
+          <li class="">
+            <a href="#services">services</a>
+          </li>
+          <li class="">
+            <a href="#works">works</a>
+          </li>
+          <li class="">
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+        <img id="moon" src="./img/moon.png" class="hidden md-block w-6 h-6" alt="" />
+        <div id="hamburger" class="flex flex-col space-y-1">
+          <div class="w-6 h-1 bg-black"></div>
+          <div class="w-6 h-1 bg-black"></div>
+          <div class="w-6 h-1 bg-black"></div>
+        </div>
+        <ul id="menu" class="hidden">
+          <li>
+            <a id="hLink" href="#">homepage</a>
+          </li>
+          <li>
+            <a id="hLink" href="#about">about me</a>
+          </li>
+          <li>
+            <a id="hLink" href="#services">services</a>
+          </li>
+          <li>
+            <a id="hLink" href="#works">works</a>
+          </li>
+          <li>
+            <a id="hLink" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- intro content -->
+    <div class="relative">
+      <!-- image -->
+      <img class="" src="./img/man.png" alt="" />
+      <!-- circle -->
+      <div
+        class="absolute bottom-0 right-0 sm:right-170 md:right-15 -z-10 m-auto w-[68vw] h-[34vw] 
+        sm:w-[58vw] sm:h-[29vw] md:w-[64vw] md:h-[32vw] 
+        rounded-tl-full rounded-tr-full bg-blue-900">
+      </div>
+      <!-- animated text -->
+      <div class="absolute top-[20%] sm:top-[22%] md:top-[25%] text-xl sm:text-3xl md:text-5xl font-bold h-full">
+        <span class="">Frelance</span>
+        <p id="text" class="text-red-500">Developer</p>
+      </div>
+    </div>
+    <!-- texts -->
+    <div class="mt-10">
+      <h1 class="text-xl">Hi, I'm John</h1>
+      <p class="mt-4 text-md">
+        with over 10 years of experience on web design and development. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. N oumquam quo
+        provident, facere minus temporibus veniam nostrum reprehenderit nihil?
+      </p>
+      <a class="text-lg bg-blue-800 text-white px-4 py-2" href="#contact">Hire Me</a>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about" class="">
+    <div class="">
+      <!-- left -->
+      <div class="">
+        <img class="" src="./img/dots.png" alt="" />
+        <div class="">
+          <img src="./img/portrait.png" alt="" />
+        </div>
+      </div>
+      <!-- right -->
+      <div class="">
+        <h1 class="">ABOUT ME</h1>
+        <h1 class="">Better Design</h1>
+        <h1 class="">
+          Better Experience
+        </h1>
+        <p class="">
+          I design and build digital products. I'm also a multi-disciplinary
+          maker with over 10 years of experiences in wide range of design
+          disciplines.
+        </p>
+        <h2 class="">HTML</h2>
+        <div class="">
+          <div class=""></div>
+        </div>
+        <h2 class="">Javascript</h2>
+        <div class="">
+          <div class=""></div>
+        </div>
+        <h2 class="">React</h2>
+        <div class="">
+          <div class=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <div id="services" class="">
+    <div class="">
+      <!-- top -->
+      <div class="">
+        <h1 class="">SERVICES</h1>
+        <h1 class="">What do I offer?</h1>
+        <p class="">
+          My approach to website design is to create a website that
+          strengthens your company’s brand while ensuring ease of use and
+          simplicity for your audience.
+        </p>
+      </div>
+      <!-- bottom -->
+      <div class="">
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+        <!-- card -->
+        <div class="">
+          <img class="" src="./img/icon.png" alt="" />
+          <h1 class="">UX / UI Design</h1>
+          <p class="">
+            I specialize in creating interactive websites for individuals and
+            small businesses.
+          </p>
+          <a class="" href="">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- works -->
+  <div id="works" class="">
+    <div class="">
+      <!-- top -->
+      <div class="">
+        <h1 class="">PORTFOLIO</h1>
+        <h1 class="">Works & Projects</h1>
+        <p class="">
+          I help designers, small agencies and businesses bring their ideas to
+          life. Powered by Figma, VS Code and coffee, I turn your requirements
+          into a well-designed websites
+        </p>
+      </div>
+      <!-- bottom -->
+      <div class="">
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+        <!-- card -->
+        <div class="">
+          <img src="./img/item.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact" class="">
+    <div class="">
+      <!-- top -->
+      <div class="">
+        <h1 class="">CONTACT</h1>
+        <h1 class="">Have a Question?</h1>
+        <p class="">
+          Do you have an idea? Let's discuss it and see what we can do
+          together.
+        </p>
+      </div>
+      <!-- bottom -->
+      <form class="">
+        <input class="" type="text" placeholder="Name Surname" />
+        <input class="" type="email" placeholder="Email" />
+        <textarea class="" cols="30" rows="10" placeholder="Message..."></textarea>
+        <button class="">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="">
+    <div class="">
+      <div class="">
+        <img class="" src="./img/logo.png" alt="" />
+        <span class="">Portwind.</span>
+      </div>
+      <span class="">© 2022 Portwind. Design with ♥️ by Lama Dev.</span>
+      <div class="">
+        <img class="" src="./img/facebook.png" alt="" />
+        <img class="" src="./img/instagram.png" alt="" />
+        <img class="" src="./img/twitter.png" alt="" />
+        <img class="" src="./img/linkedin.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+  <script src="./autotyping.js"></script>
 </body>
 </html>
